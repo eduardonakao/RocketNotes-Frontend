@@ -11,8 +11,6 @@ import { Section } from "../../components/Section"
 import { Button } from "../../components/Button"
 import { ButtonText } from "../../components/ButtonText"
 
-
-
 import { Container, Form } from "./style"
 
 export function New() {

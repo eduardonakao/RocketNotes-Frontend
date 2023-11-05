@@ -26,7 +26,7 @@ align-items: center;
 
 border-bottom: 1px solid ${({ theme }) => theme.COLORS.BACKGROUND_700};
 
-background-color: ${({ theme }) => theme.COLORS.BACKGROUND_900};;
+background-color: ${({ theme }) => theme.COLORS.BACKGROUND_900};
 
 > h1 {
         font-size: 24px;
@@ -50,15 +50,14 @@ background-color: ${({ theme }) => theme.COLORS.BACKGROUND_900};;
 export const Search = styled.div`
 grid-area: search;
 padding: 64px 64px 0;
-
-
 `
+
 export const Content = styled.div`
 grid-area: content;
 padding: 0 64px;
 overflow-y: auto;
-
 `
+
 export const NewNote = styled(Link)`
     grid-area: newnote;
 
